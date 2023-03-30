@@ -1,0 +1,999 @@
+.timetracker-timetracker {
+  width: 100%;
+  height: 5682px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-image: linear-gradient(180deg, rgba(247, 247, 247, 1) 100%, rgba(61, 165, 147, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(131, 100, 242, 1) 100%);
+}
+.timetracker-landing-pagegroup3 {
+  top: 2471px;
+  left: 24px;
+  width: 1393px;
+  height: 791px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-text {
+  top: 333.000244140625px;
+  left: 8px;
+  color: rgba(74, 21, 74, 1);
+  width: 579px;
+  height: auto;
+  position: absolute;
+  font-size: 62.477684020996094px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.timetracker-signupwithgoogle {
+  top: 0px;
+  left: 753.05810546875px;
+  width: 478.9419250488281px;
+  height: 104.60645294189453px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 10.37419319152832px;
+  background-color: rgba(74, 21, 74, 1);
+}
+.timetracker-text02 {
+  top: 34.58056640625px;
+  left: 97.6904296875px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30.25806427001953px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-googlelogo2 {
+  top: 25px;
+  left: 21.94189453125px;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-signupwithemail {
+  top: 0.864501953125px;
+  left: 160px;
+  width: 478.9419250488281px;
+  height: 104.60645294189453px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 10.37419319152832px;
+  background-color: rgba(116, 81, 246, 1);
+}
+.timetracker-signupwithmailsvg {
+  top: 10.374207496643066px;
+  left: 14.69677448272705px;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+}
+.timetracker-text04 {
+  top: 34.580657958984375px;
+  left: 113.2516098022461px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30.25806427001953px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-officeimage2 {
+  top: 229px;
+  left: 831px;
+  width: 562px;
+  height: 562px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-text06 {
+  top: 537.000244140625px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alte Haas Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.timetracker-landing-pagegroup2 {
+  top: 1206px;
+  left: 0px;
+  width: 1440px;
+  height: 1013px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-landingpageframe2 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1013px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(10, 2, 10, 1);
+}
+.timetracker-text13 {
+  top: 64px;
+  left: 250px;
+  color: rgba(217, 217, 217, 1);
+  width: 896px;
+  height: auto;
+  position: absolute;
+  font-size: 96.68394470214844px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text14 {
+  color: rgba(217, 217, 217, 1);
+}
+.timetracker-text15 {
+  color: rgba(255, 255, 255, 1);
+}
+.timetracker-text16 {
+  color: rgba(217, 217, 217, 1);
+}
+.timetracker-officepeoplelarge {
+  top: 270px;
+  left: 163px;
+  width: 1114px;
+  height: 743px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-landing-pagegroup4 {
+  top: 3298px;
+  left: 0px;
+  width: 1440px;
+  height: 726px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-frame31 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 726px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(11, 3, 11, 1);
+}
+.timetracker-text18 {
+  top: 38px;
+  left: 24px;
+  color: rgba(255, 255, 255, 1);
+  width: 579px;
+  height: auto;
+  position: absolute;
+  font-size: 62.477684020996094px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text20 {
+  top: 305px;
+  left: 24px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Alte Haas Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-officeimage3 {
+  top: 60px;
+  left: 855px;
+  width: 562px;
+  height: 562px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-rigtsreserved {
+  top: 5635px;
+  left: 549px;
+  width: 299px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-crightsreserved {
+  top: 0px;
+  left: 0px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+.timetracker-text25 {
+  top: 2px;
+  left: 45px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27.846189498901367px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.timetracker-contacts {
+  top: 4971px;
+  left: 300px;
+  width: 840px;
+  height: 464.4444580078125px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-frame17 {
+  top: 0px;
+  left: 0px;
+  width: 840px;
+  height: 464.4444580078125px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(116, 81, 246, 1);
+  border-style: solid;
+  border-width: 2.222222089767456px;
+  border-radius: 19.999998092651367px;
+}
+.timetracker-addresssvg {
+  top: 188.8888397216797px;
+  left: 37.77777862548828px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-mailsvg {
+  top: 137.77772521972656px;
+  left: 37.77777862548828px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-phonesvg {
+  top: 86.66661071777344px;
+  left: 42.22222137451172px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-contactsvg {
+  top: 35.55550003051758px;
+  left: 42.22222137451172px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-text27 {
+  top: 37.77772521972656px;
+  left: 151.11111450195312px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text29 {
+  top: 88.888671875px;
+  left: 151.111328125px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text31 {
+  top: 293px;
+  left: 151px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text33 {
+  top: 139.99993896484375px;
+  left: 151.11111450195312px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.timetracker-text35 {
+  top: 191.11105346679688px;
+  left: 151.11111450195312px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text37 {
+  top: 246px;
+  left: 151px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text39 {
+  top: 342.22216796875px;
+  left: 151.11111450195312px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.timetracker-text41 {
+  top: 393.3332824707031px;
+  left: 151.11111450195312px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 26.666664123535156px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-contactlinesvg {
+  top: -0.00005425347262644209px;
+  left: 128.88888549804688px;
+  width: 464px;
+  height: 0px;
+  position: absolute;
+}
+.timetracker-mdiaddressmarker {
+  top: 393.3332824707031px;
+  left: 33.33333206176758px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-materialsymbolsmailrounded {
+  top: 342.22216796875px;
+  left: 33.33333206176758px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-materialsymbolsphoneenabledsharp {
+  top: 291.1110534667969px;
+  left: 37.77777862548828px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-materialsymbolsperson2rounded {
+  top: 239.99993896484375px;
+  left: 37.77777862548828px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.timetracker-contact-linedividersvg {
+  top: 233.33328247070312px;
+  left: 4.44444465637207px;
+  width: 124px;
+  height: 0px;
+  opacity: 0.60;
+  position: absolute;
+}
+.timetracker-landingpage-group {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1206px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-landingpageframe {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1206px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.timetracker-materialsymbolskeyboardarrowdownrounded {
+  top: 31px;
+  left: 712px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.timetracker-materialsymbolskeyboardarrowdownrounded1 {
+  top: 31px;
+  left: 855px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.timetracker-mockupdetails {
+  top: 116px;
+  left: 712px;
+  width: 1023px;
+  height: 913px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-mockuplogin {
+  top: 202px;
+  left: 506px;
+  width: 784px;
+  height: 700px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-menusvg {
+  top: 24px;
+  left: 23px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+.timetracker-googlestore {
+  top: 985px;
+  left: 720px;
+  width: 298px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-applestore {
+  top: 985px;
+  left: 1076px;
+  width: 256px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-clock11 {
+  top: 512px;
+  left: 141px;
+  width: 461px;
+  height: 432px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-arrowdownsvg {
+  top: 31px;
+  left: 421px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+.timetracker-getstartedgreesvg {
+  top: 20px;
+  left: 1204px;
+  width: 212px;
+  height: 47px;
+  position: absolute;
+}
+.timetracker-text43 {
+  top: 27.086090087890625px;
+  left: 135px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 34.458251953125px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text45 {
+  top: 139px;
+  left: 107px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 125.34688568115234px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text47 {
+  top: 27.992889404296875px;
+  left: 305px;
+  color: rgba(16, 11, 250, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26.41458511352539px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text49 {
+  top: 27.992889404296875px;
+  left: 606.880859375px;
+  color: rgba(16, 11, 250, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26.41458511352539px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text51 {
+  top: 27.992889404296875px;
+  left: 765.36865234375px;
+  color: rgba(16, 11, 250, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26.41458511352539px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text53 {
+  top: 27.992889404296875px;
+  left: 1086.1171875px;
+  color: rgba(16, 11, 250, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26.41458511352539px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text55 {
+  top: 28px;
+  left: 473px;
+  color: rgba(16, 11, 250, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26.41458511352539px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-text57 {
+  top: 317.6072082519531px;
+  left: 40px;
+  color: rgba(0, 0, 0, 1);
+  width: 804px;
+  height: auto;
+  position: absolute;
+  font-size: 86.8079605102539px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-searchsvg {
+  top: 31.254180908203125px;
+  left: 933.76171875px;
+  width: 121px;
+  height: 29px;
+  position: absolute;
+}
+.timetracker-svg3rackerlinesvg {
+  top: 64px;
+  left: 133px;
+  width: 130px;
+  height: 0px;
+  position: absolute;
+}
+.timetracker-svg3rackerlinesvgbig {
+  top: 268px;
+  left: 209px;
+  width: 279px;
+  height: 0px;
+  position: absolute;
+}
+.timetracker-clock21 {
+  top: 26px;
+  left: 89px;
+  width: 37px;
+  height: 34px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-partners-group {
+  top: 4140px;
+  left: 0px;
+  width: 1417px;
+  height: 782px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.timetracker-partnersframe {
+  top: 0px;
+  left: 0px;
+  width: 1417px;
+  height: 782px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.timetracker-text59 {
+  top: 89px;
+  left: 657px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 34.88312911987305px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: abeatbyKai;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.timetracker-holbertonlogo {
+  top: 389px;
+  left: 1093px;
+  width: 177px;
+  height: 145px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-githublogo {
+  top: 380px;
+  left: 615px;
+  width: 211px;
+  height: 173px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-slacklogo1 {
+  top: 234px;
+  left: 170px;
+  width: 211px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-workforcelogo1 {
+  top: 234px;
+  left: 1059px;
+  width: 211px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-kpmglogo1 {
+  top: 234px;
+  left: 615px;
+  width: 211px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-alxlogo1 {
+  top: 408px;
+  left: 170px;
+  width: 211px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+}
+.timetracker-hackerranklogo {
+  top: 548px;
+  left: 170.0751953125px;
+  width: 177px;
+  height: 145px;
+  position: absolute;
+  border-color: transparent;
+}
