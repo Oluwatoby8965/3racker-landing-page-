@@ -2,8 +2,8 @@
 <p align="center">
   <img src="https://images.unsplash.com/photo-1512856246663-647a81ef198e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2005&q=80" height=400px>
 
-  <img src="mockup 1.png"
-  height=400px>
+  <img src="https://github.com/Oluwatoby8965/UI-UX-DESIGNS/blob/main/mockup%20login.png?raw=true"
+  height=400px/>
 </p>
 
 A simple terminal tool that tracks times for projects/activities.
