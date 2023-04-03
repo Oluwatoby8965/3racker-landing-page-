@@ -1,0 +1,1 @@
+export { AuthIndexPage } from "./AuthIndexPage";
