@@ -7,7 +7,9 @@ function AsideNavigation() {
         <>
             <div className="w-full h-full pt-5 bg-[white]">
                 <div className="pl-4">
-                    <Logo />
+                    <NavLink to="/">
+                        <Logo />
+                    </NavLink>
                 </div>
 
                 {/* Navigation menu */}

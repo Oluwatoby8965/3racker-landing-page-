@@ -5,6 +5,7 @@ import GoogleStoreImage from "../../assets/Google_store.png";
 import MockupDetailsImage from "../../assets/mockup_details.png";
 import MOckupLoginImage from "../../assets/mockup_login.png";
 import OfficeImage2 from "../../assets/Office_image_2.png";
+import AiImage from "../../assets/Ai_image.jpg";
 import { GoogleSVG, EmailSVG } from "../../components/svg";
 
 function HomeView() {
@@ -47,14 +48,16 @@ function HomeView() {
                     </div>
                 </section>
 
-                <section>
-                    <div className="grid grid-cols-[1fr,_max-content] gap-x-9 py-[3rem] px-[2rem] justify-items-center">
-                        <div className="flex flex-col gap-y-8">
-                            <h2 className="text-3xl">Explore Our Advanced <br /> Office AI Tools </h2>
-                            <p>Track and increase productivity in an around your office with our advanced tracking tools in just simple steps.</p>
-                        </div>
-                        <div className="box-content w-[250px] h-[250px] px-[2rem]">
-                            <img className="w-full h-full" src={OfficeImage2} alt="office image" />
+                <section className="relative h-[400px] bg-[url('../src/assets/Ai_image.jpg')] bg-no-repeat bg-right bg-cover sm:bg-none">
+                    <div className="sm:static absolute inset-0 py-[3rem] px-[2rem] bg-[#00000086] sm:bg-[#fff] text-white sm:text-[black]">
+                        <div className="sm:flex sm:justify-center sm:items-start gap-x-4 md:gap-x-[3rem]">
+                            <div className="flex flex-col gap-y-5 w-[400px] sm:w-[350px] md:w-[400px] lg:w-[450px]">
+                                <h1 className="text-4xl sm:text-3xl font-bold leading-[1.3]">Explore Our Advanced Office AI Tools</h1>
+                                <p className="text-xl sm:text-lg ">Track and increase productivity in an around your office with our advanced tracking tools in just simple steps.</p>
+                            </div>
+                            <div className="hidden sm:block box-content w-[300px] h-[300px]">
+                                <img className="w-full h-full" src={AiImage} alt="office image" />
+                            </div>
                         </div>
                     </div>
                 </section>
