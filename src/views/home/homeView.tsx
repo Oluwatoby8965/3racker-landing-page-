@@ -47,13 +47,13 @@ function HomeView() {
                     </div>
                 </section>
 
-                <section>
-                    <div className="grid grid-cols-[1fr,_max-content] gap-x-9 py-[3rem] px-[2rem] justify-items-center">
+                <section className="">
+                    <div className="w-max mx-auto grid grid-cols-[minmax(0,_400px),_max-content]  py-[3rem] px-[1rem] justify-items-center">
                         <div className="flex flex-col gap-y-8">
-                            <h2 className="text-3xl">Explore Our Advanced <br /> Office AI Tools </h2>
-                            <p>Track and increase productivity in an around your office with our advanced tracking tools in just simple steps.</p>
+                            <h2 className="text-3xl text-[#4A154A]">Explore Our Advanced <br /> Office AI Tools </h2>
+                            <p className="text-lg">Track and increase productivity in an around your office with our advanced tracking tools in just simple steps.</p>
                         </div>
-                        <div className="box-content w-[250px] h-[250px] px-[2rem]">
+                        <div className="box-content w-[250px] h-[250px] px-[2rem] justify-self-end border-2 border-blue-700">
                             <img className="w-full h-full" src={OfficeImage2} alt="office image" />
                         </div>
                     </div>
