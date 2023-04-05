@@ -5,7 +5,11 @@ const Footer = () => {
     <div>
       <h1>Partners</h1>
       {Logos.map((logo) => {
-        return <div key={logo.id}>{logo.logo}</div>;
+        return (
+          <div key={logo.id}>
+            <img src={logo.logo} alt={logo.name} />
+          </div>
+        );
       })}
     </div>
   );
