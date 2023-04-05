@@ -8,8 +8,7 @@ const ErrorPage = () => {
       className="bg-black h-screen text-white flex items flex-col 
      items-center justify-center text-4xl font-semibold gap-8"
     >
-      <h1>Error 404</h1>
-      <h1>Back Home</h1>
+      <h1>Features coming soon</h1>
       <NavLink to="/">
         <AiFillHome size={70} />
       </NavLink>
