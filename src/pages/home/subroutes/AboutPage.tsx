@@ -7,7 +7,7 @@ import { Footer } from "../../../components";
 function AboutPage() {
   return (
     <>
-      <section className="mt-[100px]">
+      <section className="my-[80px]">
         {/* first container for the clock view  */}
         <section
           className="flex justify-center items-center
