@@ -118,7 +118,7 @@ function AboutPage() {
             </div>
           </div>
         </section>
-        {/* <Footer /> */}
+        <Footer />
       </section>
     </>
   );
