@@ -24,16 +24,16 @@ function HomeLayout() {
                 <div className="hidden md:block">
                     <ul className="flex gap-x-4 lg:gap-x-7 items-center">
                         <li className="text-linkPry text-base lg:text-lg font-bold">
-                            <a href="#products">Products</a>
+                            <a href="products">Products</a>
                         </li>
                         <li className="text-linkPry text-base lg:text-lg font-bold">
-                            <a href="#about">About</a>
+                            <a href="about">About</a>
                         </li>
                         <li className="text-linkPry text-base lg:text-lg font-bold">
-                            <a href="#support">Support</a>
+                            <a href="support">Support</a>
                         </li>
                         <li className="text-linkPry text-base lg:text-lg font-bold">
-                            <a href="#pricing">Pricing</a>
+                            <a href="pricing">Pricing</a>
                         </li>
                     </ul>
                 </div>
