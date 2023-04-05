@@ -1,0 +1,37 @@
+// jshint esversio:6
+import newClock from "../../assets/New-clock.png";
+import AppleStoreImage from "../../assets/Apple_store.png";
+import GoogleStoreImage from "../../assets/Google_store.png";
+
+function HomeView() {
+    return (
+        <>
+            <div className="h-full w-full mt-[60px] bg-[#fcf9f9]">
+                <header className="relative border-2 border-red-700 py-[2rem]">
+                    <div className="flex flex-col items-center md:items-start md:ml-[20%] gap-y-[3rem]">
+                        <div className="flex flex-col items-center gap-y-3">
+                            <h1 className="text-4xl text-center w-max py-2 border-b-2 border-[black]">3racker</h1>
+                            <p className="w-[12ch] text-3xl text-center">Explore Time Management</p>
+                        </div>
+                        <div className="w-[200px] h-[200px]">
+                            <img className="w-full h-full" src={newClock} alt="image of a clock" />
+                        </div>
+                        <div className="justify-self-center flex justify-center gap-x-2">
+                            <div className="h-[50px] w-[150px]">
+                                <img className="w-full h-full" src={GoogleStoreImage} alt="" />
+                            </div>
+                            <div className="h-[50px] w-[150px]">
+                                <img className="w-full h-full" src={AppleStoreImage} alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="absolute inset-[3rem] left-[20rem] bg-[url('../src/assets/mockup_details.png')] bg-no-repeat bg-contain bg-center" ></div>
+                    <div className="absolute inset-[5rem] left-[4rem] bg-[url('../src/assets/mockup_login.png')] bg-no-repeat bg-contain bg-center" ></div>
+                </header>
+            </div>
+        </>
+    );
+}
+
+export { HomeView };

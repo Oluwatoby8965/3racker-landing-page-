@@ -1,10 +1,11 @@
 // jshint esversion:6
+import { HomeView } from "../../../views";
 
 function HomePage() {
     return (
-        <>
-            <p className="h-screen w-full bg-green-600 text-white flex justify-center items-center">This is the Home Page</p>
-        </>
+        <div className="h-screen w-full">
+            <HomeView />
+        </div>
     )
 }
 export { HomePage };
