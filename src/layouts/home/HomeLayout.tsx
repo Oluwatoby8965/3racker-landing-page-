@@ -61,10 +61,10 @@ function HomeLayout() {
 
             {/* Aside Navigation */}
             <div
-                className={`md:hidden fixed inset-y-0 w-[200px] transition-all ease-in delay-[100ms] z-10 ${navOpen ? "left-0" : "-left-full"
+                className={`md:hidden fixed inset-y-0 w-[200px] transition-all ease-in delay-[100ms] z-10 ${navOpen ? "right-0" : "-right-full"
                     } `}
             >
-                <AsideNavigation />
+                <AsideNavigation toggle={handleToggleNav} />
             </div>
 
             {/* Render Outlet here */}

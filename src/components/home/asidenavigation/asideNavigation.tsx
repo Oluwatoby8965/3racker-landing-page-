@@ -1,15 +1,23 @@
 // jshint esversion:6
 import { Logo } from "../../logo";
 import { NavLink } from "react-router-dom";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-function AsideNavigation() {
+interface AsideNavigationProps {
+  toggle: () => void
+}
+
+function AsideNavigation({ toggle }: AsideNavigationProps) {
   return (
     <>
       <div className="w-full h-full pt-5 bg-[white]">
-        <div className="pl-4">
+        <div className="px-4 flex justify-between gap-x-2">
           <NavLink to="/">
-          </NavLink>
             <Logo />
+          </NavLink>
+          <div className="cursor-pointer" onClick={toggle}>
+            <AiOutlineClose size={25} color={"#333333"} />
+          </div>
         </div>
 
         {/* Navigation menu */}
