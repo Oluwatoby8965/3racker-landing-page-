@@ -49,9 +49,9 @@ function HomeLayout() {
 
                 {/* Auth - SignUp | SignIn */}
                 <div className="hidden md:flex gap-x-3 items-center">
-                    <p className="font-bold text-linkPry">Sign In</p>
+                    <NavLink className="font-bold text-linkPry" to="/auth">Sign In</NavLink>
                     <NavLink
-                        to={"auth/signup"}
+                        to={"signup"}
                         className="outline-0 bg-[#7451F6] px-3 py-2 text-[white] font-bold rounded"
                     >
                         Get Started Free

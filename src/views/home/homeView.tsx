@@ -9,6 +9,10 @@ import AiImage from "../../assets/Ai_image.jpg";
 import { GoogleSVG, EmailSVG } from "../../components/svg";
 import { NavLink } from "react-router-dom";
 
+import { HiMail } from "react-icons/hi"
+import { BsFillTelephonePlusFill } from "react-icons/bs"
+import { HiLocationMarker } from "react-icons/hi"
+
 import PartnershipData from "../../data"
 
 function HomeView() {
@@ -106,6 +110,52 @@ function HomeView() {
                 </section>
 
                 {/* Footer Section */}
+                <footer className="bg-[black] text-white py-[3rem]">
+
+                    {/* First footer section */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 justify-items-center">
+                        <div className="flex gap-x-5 items-center">
+                            <div className="flex flex-col gap-y-2">
+                                <h3 className="text-xl font-bold">Oluwatobi Amoniyan</h3>
+                                <div className="flex gap-x-2 items-center">
+                                    <span><HiMail /></span>
+                                    <a href="mailto:amoniyano1@gmail.com">amoniyano1@gmail.com</a>
+                                </div>
+                            </div>
+                            <div className="text-sm flex flex-col gap-y-2">
+                                <div className="flex gap-x-2 items-center">
+                                    <span><BsFillTelephonePlusFill size={16} /></span>
+                                    <span><a href="tel:+2349036973816">+2349036973816</a></span>
+                                </div>
+                                <div className="flex gap-x-2 items-center">
+                                    <span><HiLocationMarker size={22} /></span>
+                                    <span>Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Second footer section */}
+                        <div className="flex gap-x-5 items-center">
+                            <div className="flex flex-col gap-y-2">
+                                <h3 className="text-xl font-bold">Oluwasoji Lebi</h3>
+                                <div className="flex gap-x-3 items-center">
+                                    <span><HiMail /></span>
+                                    <a href="mailto:lebioluwasoji@gmail.com">lebioluwasoji@gmail.com</a>
+                                </div>
+                            </div>
+                            <div className="text-sm flex flex-col gap-y-2">
+                                <div className="flex gap-x-2 items-center">
+                                    <span><BsFillTelephonePlusFill size={16} /></span>
+                                    <span><a href="tel:+2348032733065">+2348032733065</a></span>
+                                </div>
+                                <div className="flex gap-x-2 items-center">
+                                    <span><HiLocationMarker size={22} /></span>
+                                    <span>Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </>
     );
