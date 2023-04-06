@@ -5,6 +5,7 @@ import { AsideNavigation } from "../../components/home";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
+import { Footer } from "../../components";
 
 function HomeLayout() {
   const [navOpen, setNavOpen] = useState<boolean>(false);
@@ -68,11 +69,6 @@ function HomeLayout() {
         } `}
       >
         <AsideNavigation toggle={handleToggleNav} />
-      </div>
-
-      {/* Render Outlet here */}
-      <div className="fixed inset-0 overflow-y-auto z-0">
-        <Outlet />
       </div>
     </>
   );

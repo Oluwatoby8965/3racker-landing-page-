@@ -69,56 +69,57 @@ function AboutPage() {
           </div>
         </section>
         {/* THID SECTION. WHO WE ARE */}
-        <section
-          className="flex justify-center items-center flex-col
-             lg:w-[70%] w-[80%] mx-auto pt-[20px] xl:gap-8"
-        >
-          <div className=" relative">
-            <p className="text-[2rem] font-bold text-[#656565] underlines pb-2 capitalize">
-              Meet our Team
-            </p>
-          </div>
-          <div className="flex flex-col lg:flex-row gap-[80px]">
-            <div
-              className="flex flex-col justify-center items-center gap-3 bg-[#eeecec]
-            Myshadows Myshadoweffect rounded-xl"
-            >
+        <section className="bg-[rgb(0,0,0)] pb-[3.5rem]">
+          <section
+            className="flex justify-center items-center flex-col
+             lg:w-[70%] w-[80%] mx-auto pt-[20px] xl:gap-8 "
+          >
+            <div className=" relative">
+              <p className="text-[2rem] font-bold text-[#ffffff] underliness pb-2 capitalize">
+                Meet our Team
+              </p>
+            </div>
+            <div className="flex flex-col lg:flex-row gap-[40px] lg:gap-[100px] mt-6">
               <div
-                className="w-[120px] h-[120px] rounded-full overflow-hidden border-[1px] 
+                className="flex flex-col justify-center items-center gap-3 bg-[#eeecec] lg:w-[50%]
+             Myshadows Myshadoweffect rounded-xl"
+              >
+                <div
+                  className="w-[120px] h-[120px] rounded-full overflow-hidden border-[1px] 
               border-[purple] mt-7 "
-              >
-                <img
-                  className="h-full w-full"
-                  src={whitecloth}
-                  alt="Oluwatobi"
-                />
+                >
+                  <img
+                    className="h-full w-full"
+                    src={whitecloth}
+                    alt="Oluwatobi"
+                  />
+                </div>
+                <p className=" px-4 py-3 ">
+                  Oluwatobi Amoniyan is a graduate of the University of Lagos,
+                  where he studied English Language. He is a web designer and
+                  software engineer. Oluwatobi’s mission is to ensure cusomer’’s
+                  satisfaction at all times.
+                </p>
               </div>
-              <p className=" px-4 py-3 ">
-                Oluwatobi Amoniyan is a graduate of the University of Lagos,
-                where he studied English Language. He is a web designer and
-                software engineer. Oluwatobi’s mission is to ensure cusomer’’s
-                satisfaction at all times.
-              </p>
-            </div>
-            <div
-              className="flex flex-col justify-center items-center gap-3 bg-[#eeecec]
-            Myshadows Myshadoweffect rounded-xl"
-            >
               <div
-                className="w-[120px] h-[120px] rounded-full overflow-hidden border-[1px] 
-              border-[purple] mt-7"
+                className="flex flex-col justify-center items-center gap-3 bg-[#eeecec]
+            Myshadows Myshadoweffect rounded-xl  lg:w-[50%]"
               >
-                <img className="w-full h-full" src={suit} alt="WHiteCloth" />
+                <div
+                  className="w-[120px] h-[120px] rounded-full overflow-hidden border-[1px] 
+              border-[purple] mt-7"
+                >
+                  <img className="w-full h-full" src={suit} alt="WHiteCloth" />
+                </div>
+                <p className=" px-4 py-3">
+                  Lebi Soji is a software engineer determined to solve identify
+                  complex problem and proffer solutions to tackle these
+                  problems. He smart and goal driven and a co-founder of Tracker
+                </p>
               </div>
-              <p className=" px-4 py-3">
-                Lebi Soji is a software engineer determined to solve identify
-                complex problem and proffer solutions to tackle these problems.
-                He smart and goal driven and a co-founder of Tracker
-              </p>
             </div>
-          </div>
+          </section>
         </section>
-        <Footer />
       </section>
     </>
   );

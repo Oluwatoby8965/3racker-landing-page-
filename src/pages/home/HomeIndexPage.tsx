@@ -1,17 +1,18 @@
 // jshint esversion:6
 import { Routes, Route } from "react-router-dom";
 import { HomePage, AboutPage } from "./subroutes";
-import { HomeLayout } from "../../layouts";
 import ErrorPage from "./ErrorPage";
 import { SignUpPage } from "../auth/subroutes/signupPage";
 import { LoginPage } from "../auth/subroutes/loginPage";
+import SharedLayeout from "../SharedLayeout";
+import { HomeView } from "../../views";
 
 function HomeIndexPage() {
   return (
     <>
       <Routes>
-        <Route element={<HomeLayout />}>
-          <Route index element={<HomePage />} />
+        <Route element={<SharedLayeout />}>
+          <Route index element={<HomeView />} />
           <Route path="about" element={<AboutPage />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />

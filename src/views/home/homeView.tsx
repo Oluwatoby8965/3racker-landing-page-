@@ -7,6 +7,7 @@ import MOckupLoginImage from "../../assets/mockup_login.png";
 import OfficeImage3 from "../../assets/Office_image_3.jpg";
 import AiImage from "../../assets/Ai_image.jpg";
 import { GoogleSVG, EmailSVG } from "../../components/svg";
+import { Footer } from "../../components";
 import { NavLink } from "react-router-dom";
 
 import { HiMail } from "react-icons/hi";
@@ -132,95 +133,7 @@ function HomeView() {
             </div>
           </div>
         </section>
-
-        {/* Patnership */}
-        <section className="py-[3rem] px-4 overflow-scroll">
-          <div className="text-center text-3xl font-bold">Our Partners</div>
-          <div className="mt-5 grid gap-7 grid-rows-[minmax(0,_1fr)] grid-flow-col overflow-scroll items-center">
-            <>
-              {PartnershipData.map((partner) => {
-                return (
-                  <div key={partner.id}>
-                    <NavLink to={partner.weburl} target="blank">
-                      <div className="w-[100px]">
-                        <img
-                          className="w-full h-fulll"
-                          src={partner.img}
-                          alt="img"
-                        />
-                      </div>
-                    </NavLink>
-                  </div>
-                );
-              })}
-            </>
-          </div>
-        </section>
-
-        {/* Footer Section */}
-        <footer className="bg-[black] text-white py-[3rem]">
-          {/* First footer section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 justify-items-center">
-            <div className="flex gap-x-5 items-center">
-              <div className="flex flex-col gap-y-2">
-                <h3 className="text-xl font-bold">Oluwatobi Amoniyan</h3>
-                <div className="flex gap-x-2 items-center">
-                  <span>
-                    <HiMail />
-                  </span>
-                  <a href="mailto:amoniyano1@gmail.com">amoniyano1@gmail.com</a>
-                </div>
-              </div>
-              <div className="text-sm flex flex-col gap-y-2">
-                <div className="flex gap-x-2 items-center">
-                  <span>
-                    <BsFillTelephonePlusFill size={16} />
-                  </span>
-                  <span>
-                    <a href="tel:+2349036973816">+2349036973816</a>
-                  </span>
-                </div>
-                <div className="flex gap-x-2 items-center">
-                  <span>
-                    <HiLocationMarker size={22} />
-                  </span>
-                  <span>Lagos, Nigeria</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Second footer section */}
-            <div className="flex gap-x-5 items-center">
-              <div className="flex flex-col gap-y-2">
-                <h3 className="text-xl font-bold">Oluwasoji Lebi</h3>
-                <div className="flex gap-x-3 items-center">
-                  <span>
-                    <HiMail />
-                  </span>
-                  <a href="mailto:lebioluwasoji@gmail.com">
-                    lebioluwasoji@gmail.com
-                  </a>
-                </div>
-              </div>
-              <div className="text-sm flex flex-col gap-y-2">
-                <div className="flex gap-x-2 items-center">
-                  <span>
-                    <BsFillTelephonePlusFill size={16} />
-                  </span>
-                  <span>
-                    <a href="tel:+2348032733065">+2348032733065</a>
-                  </span>
-                </div>
-                <div className="flex gap-x-2 items-center">
-                  <span>
-                    <HiLocationMarker size={22} />
-                  </span>
-                  <span>Lagos, Nigeria</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        {/* <Footer /> */}
       </div>
     </>
   );

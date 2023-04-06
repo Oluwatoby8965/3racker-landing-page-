@@ -2,10 +2,10 @@
 import { HomeView } from "../../../views";
 
 function HomePage() {
-    return (
-        <div className="h-screen w-full">
-            <HomeView />
-        </div>
-    )
+  return (
+    <div className="h-screen w-full">
+      <HomeView />
+    </div>
+  );
 }
 export { HomePage };
