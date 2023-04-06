@@ -11,37 +11,37 @@ const partners = [
     {
         id: 1,
         img: Slack,
-        weburl: "www.slack.com"
+        weburl: "https://alxgroup.com.au/the-10-best-apps-for-small-businesses-in-2018/slack/"
     },
     {
-        id: 1,
+        id: 2,
         img: Alx,
-        weburl: "www.Alx.com"
+        weburl: "https://www.alxafrica.com"
     },
     {
-        id: 1,
+        id: 3,
         img: Github,
-        weburl: "www.github.com"
+        weburl: "https://github.com/"
     },
     {
-        id: 1,
+        id: 4,
         img: KPMG,
-        weburl: "www.kpmg.com"
+        weburl: "https://kpmg.com/ng/en/home.html"
     },
     {
-        id: 1,
+        id: 5,
         img: Holberton,
-        weburl: "www.slack.com"
+        weburl:"https://www.holbertonschool.com/"
     },
     {
-        id: 1,
+        id: 6,
         img: Workforce,
-        weburl: "www.slack.com"
+        weburl: "https://workforcegroup.com"
     },
     {
-        id: 1,
+        id: 7,
         img: Hackerrank,
-        weburl: "www.hackerrank.com"
+        weburl: "https://www.hackerrank.com"
     },
 ]
 
