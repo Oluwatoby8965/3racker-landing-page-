@@ -64,3 +64,17 @@
   }
 
 }
+
+/* about oage slider */
+.QuotesNextSlide {
+  transform: (100%);
+}
+
+.QuotesLasttSlide {
+  transform: (-100%);
+}
+
+.QuotesActiveSlide {
+  transform: (0%) !important;
+  opacity: 1 !important;
+}

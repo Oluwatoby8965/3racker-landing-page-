@@ -14,10 +14,10 @@ const Footer = () => {
       <h1 className="text-[2rem] text-[#1a1a1a] underline font-semibold text-center">
         Partners
       </h1>
-      <div className="bg-[rgba(92,68,68,0.2)] pt-4 pb-8">
+      <div className="bg-[rgba(92,68,68,0.2)] ">
         <div
-          className="grid grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-y-6 lg:gap-8 mt-1
-       justify-items-center lg:w-[70%]  "
+          className=" absolut h-[150px] flex justify-center  items-center gap-16
+           overflow-hidden"
         >
           <div className="w-[120px] h-[90px] Myshadoweffec">
             <a
@@ -64,9 +64,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col lg:flex-row gap-4 lg:justify-center items-center bg-[rgba(207,200,200,0.1)]">
-        <FooterContact />
-      </div>
+      <FooterContact />
     </div>
   );
 };

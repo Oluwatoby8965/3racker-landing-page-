@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 interface AsideNavigationProps {
-  toggle: () => void
+  toggle: () => void;
 }
 
 function AsideNavigation({ toggle }: AsideNavigationProps) {
@@ -46,9 +46,11 @@ function AsideNavigation({ toggle }: AsideNavigationProps) {
         </div>
 
         <div className="mt-5 flex flex-col gap-y-3 items-start px-4">
-          <NavLink className="font-bold text-linkPry" to="/auth">Sign In</NavLink>
+          <NavLink className="font-bold text-linkPry" to="/auth">
+            Sign In
+          </NavLink>
           <NavLink
-            to={"/auth/signup"}
+            to="/signup"
             className="w-full text-center outline-0 bg-[#7451F6] px-3 py-2 text-[white] font-bold rounded"
           >
             Get Started Free
