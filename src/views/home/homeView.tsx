@@ -80,13 +80,13 @@ function HomeView() {
                                 <img className="w-full h-full" src={OfficeImage3} alt="office image" />
                             </div>
                             <div className="flex flex-col gap-y-7 w-[400px] sm:w-[350px] md:w-[400px] lg:w-[450px]">
-                                <h1 className="text-3xl font-bold leading-[1.3]">Explore Our Advanced Office AI Tools</h1>
-                                <p className="text-lg">Track and increase productivity in an around your office with our advanced tracking tools in just simple steps.</p>
+                                <h1 className="text-3xl font-bold leading-[1.3]">See The Endless Possibilities of Time</h1>
+                                <p className="text-lg">Imagine a world in which you can control time and use it efficiently</p>
                             </div>
                         </div>
                     </div>
                 </section>
-
+            
                 {/* Patnership */}
                 <section className="py-[3rem] px-4 overflow-scroll">
                     <div className="text-center text-3xl font-bold">Our Partners</div>
